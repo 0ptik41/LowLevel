@@ -1,9 +1,9 @@
 ## LOW_LEVEL: Networking 
-
-
+This is a repository where I try to explore lower level networking 
+functionality. Starting with basic client server, I want to then 
+get into building headers from scratch, and eventually packets too.
 
 #### **IP Header**
- IP Header as descibed by [RFC 791](https://tools.ietf.org/html/rfc791)
 -----------------------------------------------------------------
 ```
 0                   1                   2                   3
@@ -22,3 +22,4 @@
 |                    Options                    |    Padding    |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 ```
+ IP Header as descibed by [RFC 791](https://tools.ietf.org/html/rfc791)
