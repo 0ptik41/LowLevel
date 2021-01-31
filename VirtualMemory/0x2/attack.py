@@ -3,7 +3,6 @@
 Locates and replaces (if we have permission) all occurrences of
 an ASCII string in the entire virtual memory of a process.
 
-Usage: ./rw_all.py PID search_string replace_by_string
 Where:
 - PID is the pid of the target process
 - search_string is the ASCII string you are looking to overwrite
